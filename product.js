@@ -69,10 +69,10 @@ function searchProduct(){
         product=JSON.parse(localStorage.getItem(keyid))
         // console.log(emp);
         result.innerHTML=`
-        <h3 Class="text-dark">Product Name ${product.pname} </h3>
-        <h3 Class="text-dark">Product id ${product.pid} </h3>
-        <h3 Class="text-dark">Product prize ${product.pprize} </h3>
-        <h3 Class="text-dark">Product quantity ${product.pquantity} </h3>
+        <h3 Class="text-dark">Product Name:  ${product.pname} </h3>
+        <h3 Class="text-dark">Product id:  ${product.pid} </h3>
+        <h3 Class="text-dark">Product prize:   ${product.pprize} </h3>
+        <h3 Class="text-dark">Product quantity:   ${product.pquantity} </h3>
        
         `        
         
